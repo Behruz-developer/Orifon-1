@@ -89,7 +89,7 @@
                 left: 0;
                 transform: translateY(-150%);
                 width: 100%;
-                background: #384D8B;
+                background: #1b3836;
                 padding-top: 30px;
                 height: 100vh;
                 transition: .5s;
@@ -252,7 +252,7 @@
         }
         &_card {
             padding: 8px 16px;
-            background: #58699E;
+            background: #3a6c69;
             border-radius: 8px;
         }
 
@@ -315,4 +315,8 @@
     @include media(1410px) {
         display: none;
     }
+}
+
+.cls-1{
+    fill: white;
 }

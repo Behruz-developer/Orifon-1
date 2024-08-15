@@ -43,7 +43,8 @@
         object-fit: cover;
         object-position: top;
         border-radius: 16px;
-        border-top-right-radius: 280px;
+        border-top-left-radius: 280px;
+        transform: scaleX(-1);
 
         @include media(1000px) {
             border-top-right-radius: 200px;
@@ -116,7 +117,7 @@
     &_card2 {
         grid-column-start: 2;
         width: 70%;
-        background-color: #F3F3EF;
+        background-color: #1b3836;
         padding: 24px 32px;
         border-radius: 32px 32px 32px 0px;
 
@@ -162,8 +163,8 @@
         width: 85%;
 
         padding-left: 8px;
-        border-left: 4px solid #384D8B;
-
+        border-left: 4px solid #d6a18b;
+        color: #d6a18b;
         @include media(1200px) {
             width: 95%;
         }

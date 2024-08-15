@@ -4,19 +4,9 @@ import { FaFacebookF } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa";
 import { FaTelegramPlane } from "react-icons/fa";
 import { FaYoutube } from "react-icons/fa";
-import { MapContainer, TileLayer, Marker, Popup } from "react-leaflet";
-import "../../../node_modules/leaflet/dist/leaflet.css";
-import L from "leaflet";
-import icon from "../../assets/images/metka.png";
 import { MdOutlineLocationOn } from "react-icons/md";
 import { FiClock } from "react-icons/fi";
-const DefaultIcon = L.icon({
-  iconUrl: icon,
-  iconSize: [48, 56],
-  iconAnchor: [12, 41],
-});
 
-L.Marker.prototype.options.icon = DefaultIcon;
 
 const Footer = () => {
   const position = [41.307163, 69.281239];
@@ -43,8 +33,7 @@ const Footer = () => {
                 Sotuv bo‘limi
               </div>
               <p className="footer_location_text">
-                Toshkent shahri, Mirobod tumani, <br /> Oybek ko‘chasi 38а,
-                Biznes center "Avalon", 1 qavat
+                Toshkent viloyati, Bo'stonliq tumani, <br /> Bo'stonliq ko‘chasi 
               </p>
             </div>
             <div className="footer_social">
@@ -73,7 +62,7 @@ const Footer = () => {
           </div>
           <div className="footer_card2">
             <div >
-              <iframe className="map_container" src="https://yandex.com/map-widget/v1/?um=constructor%3A99b8ce0cf880c0febd025474bc3ea144143cafa50311dc7592b79639c435804b&amp;source=constructor" width="831" height="578" frameborder="0"></iframe>
+            <iframe className="map_container" src="https://yandex.com/map-widget/v1/?um=constructor%3Aa93fc024e3ffc747a8c59278e045fd730d00ce2df64783f0f256d62bb00cf7fc&amp;source=constructor" width="500" height="400" frameborder="0"></iframe>
             </div>
           </div>
           <div className="footer_card3">

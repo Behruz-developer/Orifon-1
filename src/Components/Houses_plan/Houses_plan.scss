@@ -62,7 +62,7 @@
         transition: 0.2s;
         cursor: pointer;
         &.active {
-            background-color: #384d8b;
+            background-color: #1b3836;
             border-radius: 32px;
             color: white;
         }
@@ -86,7 +86,7 @@
         }
     }
     &_number:hover {
-        background-color: #58699e;
+        background-color: #3a6c69;
         border-radius: 32px;
         color: white;
     }

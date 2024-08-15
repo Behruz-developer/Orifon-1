@@ -76,7 +76,7 @@
                     font-weight: 600;
                     line-height: 56px;
                     text-align: left;
-                    color: #384d8b;
+                    color: #1b3836;
                     position: relative;
                     @include media(1400px) {
                         font-size: 40px;
@@ -184,7 +184,6 @@
 
     &_card_img {
         width: 50%;
-
         @include media (700px) {
             width: 100%;
         }
@@ -196,6 +195,7 @@
         border-radius: 16px;
         border-top-right-radius: 280px;
         object-fit: cover;
+        object-position: top;
         height: 560px;
 
         @include media(1425px) {

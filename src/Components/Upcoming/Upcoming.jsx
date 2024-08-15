@@ -37,12 +37,10 @@ const Upcoming = ({ images }) => {
                           className="slidet_text"
                           key={`navimage${index + 1}`}
                         >
-                          Baxtli hayot maskaniga xush kelibsiz!
+                          Togʻ bagʻridagi baxt maskani
                         </h3>
                         <p className="slidet_text2">
-                          NRG JOMIY - NRGning yangi biznes-klass turarjoy
-                          majmuasi, mashhur ortaosiyolik shoir Abdurahmon Jomiy
-                          sharafiga atalgan.
+                        Orifon — TXT Group kompaniyasi tomonidan Gʻazalkent shahrida barpo etilayotgan dalahovli uslubidagi yangi loyiha.
                         </p>
                       </div>
                       <div className="upcoming_icon2_card">
