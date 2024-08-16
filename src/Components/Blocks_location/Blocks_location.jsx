@@ -1,6 +1,6 @@
 /* eslint-disable react/no-unescaped-entities */
 
-import universal from "../../assets/images/universal2.jpg";
+import universal from "../../assets/images/universall3.jpg";
 
 const Blocks_location = () => {
   return (

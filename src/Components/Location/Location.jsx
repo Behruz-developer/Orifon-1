@@ -1,6 +1,6 @@
 /* eslint-disable react/no-unescaped-entities */
 import { useEffect } from "react";
-import universal from "../../assets/images/universal2.jpg";
+import universal from "../../assets/images/universall2.jpg";
 import AOS from "aos";
 import "aos/dist/aos.css";
 const Location = () => {

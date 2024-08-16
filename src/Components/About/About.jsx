@@ -1,5 +1,5 @@
 
-import universal from "../../assets/images/universal.jpg";
+import universal from "../../assets/images/universall1.jpg";
 import { useEffect } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";

@@ -1,6 +1,6 @@
 /* eslint-disable no-unused-vars */
 import { useState } from "react";
-import form from "../../assets/images/form.jpg";
+import form from "../../assets/images/universall4.jpg";
 
 
 const Send_form = () => {
