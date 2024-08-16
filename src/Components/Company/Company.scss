@@ -191,11 +191,11 @@
 
     &_img {
         width: 100%;
-        transform: scaleX(-1);
+        // transform: scaleX(-1);
         border-radius: 16px;
         border-top-right-radius: 280px;
         object-fit: cover;
-        object-position: top;
+        object-position: right;
         height: 560px;
 
         @include media(1425px) {
@@ -217,7 +217,6 @@
         }
 
         @include media (700px) {
-            transform: scaleX(1);
             border-top-right-radius: 240px;
         }
 

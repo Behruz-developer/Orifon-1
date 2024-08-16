@@ -1,5 +1,6 @@
 import { useState } from "react";
-import houses from '../../assets/images/houses_plan.png';
+import houses from '../../assets/images/houses1.svg';
+import houses2 from '../../assets/images/houses2.svg';
 import universal from '../../assets/images/universal.png';
 
 const Houses_plan = () => {
@@ -37,7 +38,7 @@ const Houses_plan = () => {
             <div className="houses_card_bottom">
               <img src={houses} alt="" className="houses_img" />
               <div className="houses_border"></div>
-              <img src={houses} alt="" className="houses_img" />
+              <img src={houses2} alt="" className="houses_img" />
               <div className="houses_border"></div>
               <img src={houses} alt="" className="houses_img" />
             </div>

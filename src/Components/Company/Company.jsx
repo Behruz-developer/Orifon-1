@@ -1,7 +1,7 @@
 // /* eslint-disable no-undef */
 /* eslint-disable react/no-unescaped-entities */
 import { useState } from "react";
-import universal from "../../assets/images/universall5.jpg";
+import universal from "../../assets/images/form.jpg";
 import { useEffect } from "react";
 import { useRef } from "react";
 
