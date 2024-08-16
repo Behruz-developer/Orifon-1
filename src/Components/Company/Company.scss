@@ -193,7 +193,7 @@
         width: 100%;
         // transform: scaleX(-1);
         border-radius: 16px;
-        border-top-right-radius: 280px;
+        border-top-left-radius: 280px;
         object-fit: cover;
         object-position: right;
         height: 560px;
@@ -203,27 +203,27 @@
         }
 
         @include media(1200px) {
-            border-top-right-radius: 240px;
+            border-top-left-radius: 240px;
         }
 
         @include media(1000px) {
             border-radius: 14px;
-            border-top-right-radius: 200px;
+            border-top-left-radius: 200px;
         }
 
         @include media(800px) {
             border-radius: 12px;
-            border-top-right-radius: 150px;
+            border-top-left-radius: 150px;
         }
 
         @include media (700px) {
-            border-top-right-radius: 240px;
+            border-top-left-radius: 240px;
         }
 
         @include media (600px) {
             border-radius: 8px;
 
-            border-top-right-radius: 100px;
+            border-top-left-radius: 100px;
         }
 
 
