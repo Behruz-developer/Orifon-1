@@ -133,7 +133,7 @@
         }
 
         &_img {
-            width: 40px;
+            width: 60px;
             height: 100%;
             color: black;
             // @include media(1400px) {
@@ -157,7 +157,7 @@
 
         }
         &_card{
-            width: 80px;
+            width: 60px;
             height: 80px;
             @include media(1400px) {
                 width: 54px;
