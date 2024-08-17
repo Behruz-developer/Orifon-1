@@ -18,7 +18,7 @@ const Company = () => {
               const windowHeight = window.innerHeight;
 
               if (sectionTop < windowHeight) {
-                  animateNumber(0, 1684, 1000, setNumber1);
+                  animateNumber(0, 2357, 1000, setNumber1);
                   animateNumber(0, 188430, 1000, setNumber2);
                   setHasAnimated(true); 
               }
@@ -53,20 +53,13 @@ const Company = () => {
             <div className="company_card_top">
               <h2 className="company_title">Quruvchi kompaniya to‘g‘risida</h2>
               <p className="company_text">
-                Sizning uyingizda hozirdan baxtli oilalar yashamogdalar,
-                bolajonlar birinchi do'stlarini topmoqdalar va do stona
-                qo'shnichilik madaniyati gullab-yashnamoqda.
+              TXT Group yirik va zamonaviy qurilish kompaniyasi boʻlib, Oʻzbekistonning 10 dan ortiq tuman va shaharlarida turar-joy majmualari barpo etgan. Kompaniya 2014-yilda tashkil etilgan va shu vaqt ichida ishonchli hamda samarali hamkor sifatida tanilgan.
               </p>
               <p className="company_text">
-                NRG - O'zbekiston va Qozog'iston qardosh xalqlarining do'stligi
-                va madaniy birligining, hamfikrlilik ittifogining yaggol
-                tasdig'idir. Biz o'zbek xalgining ko'p asrlik eng zo'r me'moriy
-                ananalari bilan Qozog'istonning ilg'or qurilish tajribasini
-                mujassamlashtirmoqdamiz.
+              Har bir loyiha biz uchun nafaqat biznes, balki oʻz mijozlarimizga eng yaxshi yashash sharoitlarini taqdim etish imkoniyatidir.
               </p>
               <p className="company_text">
-                Biz hayot uchun qulay makon barpo etmoqdamiz, 24/7 sifatli
-                servis va maishiy masalalarda kafolatlangan yordam taqdim etamiz
+              Bizning asosiy missiyamiz — mustahkam va qulay uy-joylar qurish orqali xalqimizning farovonligini taʼminlashdir.
               </p>
             </div>
             <div className="company_card_bottom" ref={sectionRef}>
