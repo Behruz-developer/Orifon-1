@@ -10,7 +10,7 @@ import { FaTelegramPlane } from "react-icons/fa";
 import { FaYoutube } from "react-icons/fa";
 import { useState } from "react";
 import { Link } from "react-scroll";
-
+import txt from '../../assets/images/txt.png'
 const Nav = () => {
   const [active, setActive] = useState(false);
 
@@ -18,6 +18,7 @@ const Nav = () => {
     <>
       <nav className="nav">
         <div className="container">
+          <div className="nav_box_container">
           <div className="nav_box">
             <div className="nav_card_left">
               <a href="#!">
@@ -29,7 +30,7 @@ const Nav = () => {
                   className="nav_logo"
                 >
                   <defs>
-                    
+
                   </defs>
                   <g id="_Слой_1-2" data-name="Слой 1">
                     <g>
@@ -213,6 +214,7 @@ const Nav = () => {
                         1361
                       </a>
                     </div>
+
                     <div className="nav_download">
                       <RxDownload className="nav_phone_icon" />
                       <div className="nav_download_card">
@@ -234,6 +236,7 @@ const Nav = () => {
                 </a>
                 <IoMenu className="nav_menu" onClick={() => setActive(true)} />
               </div>
+
               <div className="nav_download download">
                 <RxDownload className="nav_phone_icon" />
                 <div className="nav_download_card">
@@ -243,6 +246,11 @@ const Nav = () => {
               </div>
             </div>
           </div>
+          <div className="nav_txt">
+            <img src={txt} alt="" className="nav_txt_img" />
+          </div>
+          </div>
+
         </div>
       </nav>
 

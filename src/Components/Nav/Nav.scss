@@ -39,6 +39,30 @@
         }
     }
 
+    &_txt {
+        width: 100px;
+        position: absolute;
+        right: 0px;
+        bottom: -120px;
+
+        @include media (1410px) {
+            width: 80px;
+            bottom: -90px;
+        }
+        @include media (1000px) {
+            width: 60px;
+            bottom: -60px;
+        }
+        @include media (600px) {
+            width: 50px;
+            bottom: -55px;
+        }
+        &_img {
+
+            width: 100%;
+        }
+    }
+
     &_logo {
         width: 220px;
 
@@ -65,7 +89,11 @@
         align-items: center;
         // position: relative;
 
-
+        &_container {
+            display: flex;
+            flex-direction: column;
+            position: relative;
+        }
     }
 
     &_list {
@@ -93,6 +121,7 @@
                 padding-top: 30px;
                 height: 100vh;
                 transition: .5s;
+
                 &.active {
                     transform: translateY(0);
 
@@ -120,7 +149,8 @@
         line-height: 24px;
         color: white;
         transition: .3s;
-        &:hover{
+
+        &:hover {
             color: #C0C0C0;
         }
     }
@@ -193,7 +223,7 @@
         column-gap: 10px;
         align-items: center;
 
-        @include media (1200px){
+        @include media (1200px) {
             flex-direction: column;
             gap: 10px;
         }
@@ -245,11 +275,12 @@
 
         display: none;
 
-        @include media(1200px){
+        @include media(1200px) {
             display: flex;
             justify-content: center;
             margin-top: 24px;
         }
+
         &_card {
             padding: 8px 16px;
             background: #3a6c69;
@@ -303,20 +334,21 @@
 }
 
 
-.menu{
+.menu {
     display: none;
-    
+
     @include media (1200px) {
         display: flex;
         margin-top: 26px;
     }
 }
-.download{
+
+.download {
     @include media(1410px) {
         display: none;
     }
 }
 
-.cls-1{
+.cls-1 {
     fill: white;
 }

@@ -37,7 +37,7 @@ const Upcoming = ({ images }) => {
                           className="slidet_text"
                           key={`navimage${index + 1}`}
                         >
-                          Togʻ bagʻridagi baxt maskani
+                          Togʻ bagʻridagi baxt maskani butun oilangizni kutmoqda
                         </h3>
                         <p className="slidet_text2">
                         Orifon — TXT Group kompaniyasi tomonidan Gʻazalkent shahrida barpo etilayotgan dalahovli uslubidagi yangi loyiha.
