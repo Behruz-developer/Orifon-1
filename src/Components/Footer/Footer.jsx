@@ -33,7 +33,7 @@ const Footer = () => {
                 Sotuv bo‘limi
               </div>
               <p className="footer_location_text">
-                Toshkent viloyati, Bo'stonliq tumani, <br /> Bo'stonliq ko‘chasi 
+                Toshkent viloyati, Bo'stonliq tumani, <br /> Bo'stonliq ko‘chasi
               </p>
             </div>
             <div className="footer_social">
@@ -45,14 +45,14 @@ const Footer = () => {
                 </div>
               </div>
               <div className="footer_icons">
-                <a href="https://www.facebook.com/txtgroup.uzb" className="footer_icon">
-                  <FaFacebookF />
-                </a>
                 <a href="https://www.instagram.com/txtgroup.uzb" className="footer_icon">
                   <FaInstagram />
                 </a>
                 <a href="https://t.me/txtgroupuzb" className="footer_icon">
                   <FaTelegramPlane />
+                </a>
+                <a href="https://www.facebook.com/txtgroup.uzb" className="footer_icon">
+                  <FaFacebookF />
                 </a>
                 <a href="#!" className="footer_icon">
                   <FaYoutube />
@@ -62,17 +62,20 @@ const Footer = () => {
           </div>
           <div className="footer_card2">
             <div >
-            <iframe className="map_container" src="https://yandex.com/map-widget/v1/?um=constructor%3Aa93fc024e3ffc747a8c59278e045fd730d00ce2df64783f0f256d62bb00cf7fc&amp;source=constructor" width="500" height="400" frameborder="0"></iframe>
+              <iframe className="map_container" src="https://yandex.com/map-widget/v1/?um=constructor%3Aa93fc024e3ffc747a8c59278e045fd730d00ce2df64783f0f256d62bb00cf7fc&amp;source=constructor" width="500" height="400" frameborder="0"></iframe>
             </div>
           </div>
           <div className="footer_card3">
             <p className="footer_card3_text">
-              Ushbu saytdagi suratlar loyiha arxitekturasini tushunish, fasad, dizayn va interer tasvirlari bilan tanishish, majmua infratuzilmasini oʻrganib chiqish maqsadida yuklangan. U ommaviy oferta hisoblanmaydi.
+              Ushbu saytdagi rasm va renderlar majmua loyihasi, xonadonlar joylashuvi va hovli maydoni bilan yaqindan tanishish maqsadida yuklangan.
+            </p>
+            <p className="footer_card3_text">
+            Tayyor binolar dizayni va koʻrinishi saytdagi tasvirlardan farq qilishi mumkin. Shu sababli bu maʼlumotlar ommaviy oferta hisoblanmaydi.
             </p>
           </div>
         </div>
       </div>
-      
+
     </footer>
   );
 };
