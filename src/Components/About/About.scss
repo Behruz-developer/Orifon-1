@@ -1,8 +1,12 @@
 .about {
     height: auto;
+    overflow: hidden;
+    padding-bottom: 40px;
 
+    @include media (600px){
+    padding-bottom: 95px;
 
-
+    }
     &_box {
         display: grid;
         grid-template-columns: repeat(2, 50%);
@@ -252,6 +256,10 @@
         @include media(650px) {
             width: 100.2%;
             left: -1px;
+            bottom: -50px;
+        }
+        @include media(600px) {
+            bottom: -70px;
         }
         &_box{
             width: 50px;

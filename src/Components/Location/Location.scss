@@ -47,12 +47,12 @@
         transform: scaleX(-1);
 
         @include media(1000px) {
-            border-top-right-radius: 200px;
+            // border-top-right-radius: 200px;
             height: 100%;
         }
 
         @include media (800px) {
-            border-top-right-radius: 150px;
+            // border-top-right-radius: 150px;
         }
 
         @include media(600px) {
