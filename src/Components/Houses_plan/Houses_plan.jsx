@@ -3,9 +3,7 @@ import houses1 from "../../assets/images/1-xonali.jpg";
 import houses3 from "../../assets/images/3-xonali.jpg";
 import houses31 from "../../assets/images/3-xonali1.jpg";
 import houses32 from "../../assets/images/3-xonali2.jpg";
-import houses33 from "../../assets/images/3-xonali3.jpg";
 import houses4 from "../../assets/images/4-xonali.jpg";
-import universal from "../../assets/images/universal.png";
 
 const Houses_plan = () => {
   const [activeNumber, setActiveNumber] = useState("Hammasi");
