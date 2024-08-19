@@ -44,7 +44,8 @@
         position: absolute;
         right: 0px;
         bottom: -120px;
-
+        right: 5%;
+        z-index: -1;
         @include media (1410px) {
             width: 80px;
             bottom: -90px;
@@ -87,12 +88,11 @@
         display: flex;
         justify-content: space-between;
         align-items: center;
-        // position: relative;
 
         &_container {
             display: flex;
             flex-direction: column;
-            position: relative;
+            // position: relative;
         }
     }
 
