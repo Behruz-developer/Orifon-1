@@ -12,39 +12,39 @@ const Company = () => {
   const sectionRef = useRef(null);
 
   useEffect(() => {
-      const handleScroll = () => {
-          if (!hasAnimated && sectionRef.current) {
-              const sectionTop = sectionRef.current.getBoundingClientRect().top;
-              const windowHeight = window.innerHeight;
+    const handleScroll = () => {
+      if (!hasAnimated && sectionRef.current) {
+        const sectionTop = sectionRef.current.getBoundingClientRect().top;
+        const windowHeight = window.innerHeight;
 
-              if (sectionTop < windowHeight) {
-                  animateNumber(0, 2357, 1000, setNumber1);
-                  animateNumber(0, 188430, 1000, setNumber2);
-                  setHasAnimated(true); 
-              }
-          }
-      };
+        if (sectionTop < windowHeight) {
+          animateNumber(0, 2357, 1000, setNumber1);
+          animateNumber(0, 188430, 1000, setNumber2);
+          setHasAnimated(true);
+        }
+      }
+    };
 
-      window.addEventListener('scroll', handleScroll);
+    window.addEventListener('scroll', handleScroll);
 
-      return () => {
-          window.removeEventListener('scroll', handleScroll);
-      };
+    return () => {
+      window.removeEventListener('scroll', handleScroll);
+    };
   }, [hasAnimated]);
   const animateNumber = (start, end, duration, setNumber) => {
     const increment = (end - start) / (duration / 1);
     let currentNumber = start;
 
     const timer = setInterval(() => {
-        currentNumber += increment;
-        if (currentNumber >= end) {
-            setNumber(end);
-            clearInterval(timer);
-        } else {
-            setNumber(Math.round(currentNumber));
-        }
+      currentNumber += increment;
+      if (currentNumber >= end) {
+        setNumber(end);
+        clearInterval(timer);
+      } else {
+        setNumber(Math.round(currentNumber));
+      }
     }, 1);
-};
+  };
   return (
     <div className="company" >
       <div className="container">
@@ -56,28 +56,16 @@ const Company = () => {
               TXT Group yirik va zamonaviy qurilish kompaniyasi boʻlib, Oʻzbekistonning 10 dan ortiq tuman va shaharlarida turar-joy majmualari barpo etgan. Kompaniya 2014-yilda tashkil etilgan va shu vaqt ichida ishonchli hamda samarali hamkor sifatida tanilgan.
               </p>
               <p className="company_text">
-              Har bir loyiha biz uchun nafaqat biznes, balki oʻz mijozlarimizga eng yaxshi yashash sharoitlarini taqdim etish imkoniyatidir.
+                Har bir loyiha biz uchun nafaqat biznes, balki oʻz mijozlarimizga eng yaxshi yashash sharoitlarini taqdim etish imkoniyatidir. Bizning asosiy missiyamiz mustahkam va qulay uy-joylar qurish orqali xalqimizning farovonligini taʼminlashdir.
               </p>
               <p className="company_text">
-              Bizning asosiy missiyamiz — mustahkam va qulay uy-joylar qurish orqali xalqimizning farovonligini taʼminlashdir.
+                Kompaniyamiz sifat, mustahkamlik va zamonaviy yondashuvlar asosida eng yuqori darajadagi qurilish xizmatlarini taqdim etishni oʻz oldiga maqsad qilgan. Har bir loyiha biz uchun oʻziga xosdir, shuning uchun biz nafaqat texnik koʻrsatkichlarga, balki mijozlarimizning istak va ehtiyojlariga ham katta eʼtibor qaratamiz.
+              </p>
+              <p className="company_text">
+              Biz bilan hamkorlik qilib, siz barqaror va mustahkam qurilish yechimlarini tanlaysiz. Biz sizning ishonchingizni oqlash va orzularingizdagi loyihani hayotga tatbiq etish uchun doim harakatdamiz!
               </p>
             </div>
-            <div className="company_card_bottom" ref={sectionRef}>
-              <div className="company_card_bottom_numbers">
-                <h3> + {number1.toLocaleString()}</h3>
-                <p>
-                  Oila bizning uylarda <br /> yashamoqda
-                </p>
-              </div>
-              <div className="company_card_bottom_numbers">
-                <h3>
-                + {number2.toLocaleString()} m<span>2</span>
-                </h3>
-                <p>
-                  Xonadonlar qurib bitkazilib <br /> o‘z egalariga topshirildi
-                </p>
-              </div>
-            </div>
+
           </div>
           <div className="company_card_img">
             <img src={universal} alt="" className="company_img" />

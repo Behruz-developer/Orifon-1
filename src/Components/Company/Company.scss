@@ -78,6 +78,7 @@
                     text-align: left;
                     color: #1b3836;
                     position: relative;
+
                     @include media(1400px) {
                         font-size: 40px;
                         line-height: 50px;
@@ -170,7 +171,8 @@
         line-height: 24px;
         text-align: left;
         color: #505050;
-
+        max-width: 686px;
+        width: 100%;
         @include media(1200px) {
             font-size: 16px;
             line-height: 22px;

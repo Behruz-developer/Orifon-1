@@ -23,7 +23,7 @@ const Footer = () => {
                 Ish vaqti
               </div>
               <p className="footer_location_text">
-                Har kun soat 09:00 dan 18:00 gacha
+                Har kun <br /> soat 09:00 dan 18:00 gacha
               </p>
             </div>
             <div className="footer_location">
@@ -33,7 +33,11 @@ const Footer = () => {
                 Sotuv bo‘limi
               </div>
               <p className="footer_location_text">
-                Toshkent viloyati, Bo'stonliq tumani, <br /> Bo'stonliq ko‘chasi
+                Toshkent viloyati Boʻstonliq tumani
+                <br />
+                Boʻstonliq koʻchasi
+                <br />
+                Moʻljal: Musiqa maktabi roʻparasida
               </p>
             </div>
             <div className="footer_social">
@@ -67,9 +71,9 @@ const Footer = () => {
           </div>
           <div className="footer_card3">
             <p className="footer_card3_text">
-            © 2024 TXT Group. Barcha huquqlar himoyalangan.
-Saytda nashr etilgan har qanday material kompaniya intellektual mulki hisoblanib, foydalanuvchilar bundan xabardor boʻlishi kerak.
-Ushbu saytdagi rasm va renderlar majmua loyihasi, xonadonlar joylashuvi va hovli maydoni bilan yaqindan tanishish maqsadida yuklangan. Tayyor binolar dizayni va koʻrinishi saytdagi tasvirlardan farq qilishi mumkin. Shu sababli bu maʼlumotlar ommaviy oferta hisoblanmaydi.            </p>
+              © 2024 TXT Group. Barcha huquqlar himoyalangan.
+              Saytda nashr etilgan har qanday material kompaniya intellektual mulki hisoblanib, foydalanuvchilar bundan xabardor boʻlishi kerak.
+              Ushbu saytdagi rasm va renderlar majmua loyihasi, xonadonlar joylashuvi va hovli maydoni bilan yaqindan tanishish maqsadida yuklangan. Tayyor binolar dizayni va koʻrinishi saytdagi tasvirlardan farq qilishi mumkin. Shu sababli bu maʼlumotlar ommaviy oferta hisoblanmaydi.            </p>
             {/* <p className="footer_card3_text">
             Tayyor binolar dizayni va koʻrinishi saytdagi tasvirlardan farq qilishi mumkin. Shu sababli bu maʼlumotlar ommaviy oferta hisoblanmaydi.
             </p> */}
