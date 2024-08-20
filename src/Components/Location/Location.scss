@@ -7,6 +7,7 @@
     @include media (850px){
         padding-bottom: 0px;
     }
+
     &_box {
         width: 100%;
         display: grid;
@@ -117,14 +118,9 @@
             order: -1;
             grid-row: span 1;
             width: 100%;
-            margin-top: 40px;
+            margin-top: 0px;
         }
-        @include media(550px) {
-            order: -1;
-            grid-row: span 1;
-            width: 100%;
-            margin-top: 10px;
-        }
+
     }
 
     &_card2 {
