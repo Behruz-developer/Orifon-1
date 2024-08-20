@@ -14,6 +14,7 @@ import Block_average from "./Components/Block_average/Block_average";
 import Houses_plan from "./Components/Houses_plan/Houses_plan";
 import { useEffect, useState } from "react";
 import Loading from "./Components/Loading/Loading";
+import { Helmet } from "react-helmet";
 
 const App = () => {
   const [isLoading, setIsLoading] = useState(true);
@@ -46,6 +47,9 @@ const App = () => {
 
   return (
     <>
+      <Helmet>
+        <script defer src="https://example.com/some-script.js"></script>
+      </Helmet>
       {isLoading ? (
         <Loading />
       ) : (
