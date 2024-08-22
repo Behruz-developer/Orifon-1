@@ -17,7 +17,7 @@ import Loading from "./Components/Loading/Loading";
 import { Helmet } from "react-helmet";
 import average from './assets/images/averag.jpg'
 
-import average2 from './assets/images/average1.jpeg'
+import average2 from './assets/images/average1.jpg'
 import average3 from './assets/images/average2.jpg'
 import average4 from './assets/images/average3.jpg'
 const App = () => {
