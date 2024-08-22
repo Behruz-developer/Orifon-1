@@ -3,14 +3,15 @@
     overflow: hidden;
     padding-bottom: 40px;
 
-    @include media (600px){
-    padding-bottom:80px;
+    @include media (600px) {
+        padding-bottom: 80px;
 
     }
-    @include media (400px){
-        padding-bottom:110px;
-    
-        }
+
+    @include media (400px) {
+        padding-bottom: 110px;
+
+    }
 
     &_box {
         display: grid;
@@ -35,6 +36,7 @@
         @include media(1000px) {
             grid-row: span 3;
         }
+
         @include media(650px) {
             grid-row: span 1;
         }
@@ -91,8 +93,10 @@
         }
 
         @include media(650px) {
+            margin-top: 0px;
+
             grid-column: span 1;
-            grid-row:  2;
+            grid-row: 2;
         }
     }
 
@@ -103,6 +107,15 @@
         flex-wrap: wrap;
         width: 100%;
 
+        @include media(800px) {
+            row-gap: 40px;
+
+        }
+
+        @include media(600px) {
+        row-gap: 30px;
+
+        }
     }
 
     &_icon_text {
@@ -152,14 +165,16 @@
                 height: 48px;
             }
 
-            &_color{
+            &_color {
                 fill: #D6A18B;
             }
 
         }
-        &_card{
+
+        &_card {
             width: 60px;
             height: 80px;
+
             @include media(1400px) {
                 width: 54px;
                 height: 54px;
@@ -187,7 +202,7 @@
         }
 
         @include media(650px) {
-            grid-row:  span 1;
+            grid-row: span 1;
             grid-column: span 1;
         }
 
@@ -255,28 +270,34 @@
             left: -1px;
             bottom: -50px;
         }
+
         @include media(600px) {
             bottom: -70px;
             box-shadow: 0px 6px 6px 0px #0000001a;
         }
+
         @include media(400px) {
             bottom: -100px;
             box-shadow: 0px 6px 6px 0px #0000001a;
         }
-        &_box{
+
+        &_box {
             width: 50px;
             height: 50px;
+
             @include media(1000px) {
                 width: 45px;
                 height: 45px;
             }
         }
+
         &_img {
             width: 50px;
             height: 100%;
             padding: 10px;
             background: #f3f3ef;
             border-radius: 16px;
+
             @include media(1000px) {
                 width: 45px;
                 height: 45px;

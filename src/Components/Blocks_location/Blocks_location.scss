@@ -7,7 +7,7 @@
     }
 
     @include media (600px) {
-        margin-bottom: 16px;
+        margin-bottom: 80px;
     }
 
     &_svg_box {
@@ -69,6 +69,8 @@
         @include media(600px) {
             grid-template-columns: repeat(1, 100%);
             grid-template-rows: repeat(3, 0.5fr);
+            gap: 4%;
+
         }
     }
 
@@ -162,7 +164,7 @@
         @include media(600px) {
             width: 100%;
             margin-top: 0;
-            row-gap: 12px;
+            row-gap: 18px;
             flex-direction: column;
             column-gap: 0px;
         }
@@ -190,7 +192,7 @@
         line-height: 32px;
         row-gap: 16px;
         flex-direction: column;
-        width: 27.5%;
+        width: 22.5%;
 
         @include media(1400px) {
             // width: 30%;
@@ -283,7 +285,7 @@
             @include media(600px) {
                 border-radius: 8px;
                 border-top-right-radius: 100px;
-                height: 350px;
+                height: 250px;
             }
         }
     }

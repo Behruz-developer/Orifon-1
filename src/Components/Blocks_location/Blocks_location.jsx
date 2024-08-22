@@ -81,7 +81,7 @@ const Blocks_location = () => {
                   </svg>
 
                 </div>
-                Vitrajli <br /> oynalar
+                Vitrajli  oynalar
               </div>
               <div className="blocks_location_icon_text">
                 <div className="blocks_location_svg_box">
