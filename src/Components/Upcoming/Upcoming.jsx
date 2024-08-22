@@ -73,7 +73,7 @@ const Upcoming = ({ images }) => {
                       <div className="upcoming_icons">
                         <div className="upcoming_icons_card">
                           <a href="#!" className="upcoming_icon">
-                            Jonli <br /> efir
+                            Live
                           </a>
                           <Link
                             to="form"

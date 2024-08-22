@@ -15,7 +15,11 @@ import Houses_plan from "./Components/Houses_plan/Houses_plan";
 import { useEffect, useState } from "react";
 import Loading from "./Components/Loading/Loading";
 import { Helmet } from "react-helmet";
+import average from './assets/images/averag.jpg'
 
+import average2 from './assets/images/average1.jpeg'
+import average3 from './assets/images/average2.jpg'
+import average4 from './assets/images/average3.jpg'
 const App = () => {
   const [isLoading, setIsLoading] = useState(true);
 
@@ -58,12 +62,18 @@ const App = () => {
           <Upcoming images={images} />
           <About />
           <Location />
-          <Block_average />
+          <Block_average img={average} />
           <Blocks_location />
+          <Block_average img={average2} />
+
           <Houses_plan />
           <Send_form />
-          <Construction />
+          <Block_average img={average3} />
+
+          {/* <Construction /> */}
           <Company />
+          <Block_average img={average4} />
+
           <Footer />
         </>
       )}

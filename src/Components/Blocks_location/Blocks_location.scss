@@ -2,9 +2,18 @@
     margin-bottom: 100px;
     height: auto;
 
-    &_svg_box{
+    @include media (800px) {
+        margin-bottom: 40px;
+    }
+
+    @include media (600px) {
+        margin-bottom: 16px;
+    }
+
+    &_svg_box {
         width: 80px;
         height: 80px;
+
         @include media(1400px) {
             width: 70px;
             height: 70px;
@@ -20,9 +29,11 @@
             height: 48px;
         }
     }
-    &_svg_card{
+
+    &_svg_card {
         width: 80px;
         height: 100%;
+
         @include media(1400px) {
             width: 70px;
             height: 70px;
@@ -38,12 +49,15 @@
             height: 48px;
         }
     }
-    &_svg_icon1{
+
+    &_svg_icon1 {
         fill: #1b3836;
     }
-    &_svg_icon2{
+
+    &_svg_icon2 {
         fill: #1b3836;
     }
+
     &_box {
         display: grid;
         grid-template-columns: repeat(2, 50%);
@@ -316,20 +330,24 @@
             bottom: 0px;
             border-radius: 8px;
         }
-        &_box{
+
+        &_box {
             width: 50px;
             height: 50px;
+
             @include media(1000px) {
                 width: 45px;
                 height: 45px;
             }
         }
+
         &_img {
             width: 50px;
             height: 100%;
             padding: 10px;
             background: #f3f3ef;
             border-radius: 16px;
+
             @include media(1000px) {
                 width: 45px;
                 height: 45px;

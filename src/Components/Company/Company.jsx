@@ -53,8 +53,7 @@ const Company = () => {
             <div className="company_card_top">
               <h2 className="company_title">Quruvchi kompaniya to‘g‘risida</h2>
               <p className="company_text">
-              TXT Group yirik va zamonaviy qurilish kompaniyasi boʻlib, Oʻzbekistonning 10 dan ortiq tuman va shaharlarida turar-joy majmualari barpo etgan. Kompaniya 2014-yilda tashkil etilgan va shu vaqt ichida ishonchli hamda samarali hamkor sifatida tanilgan.
-              </p>
+                Xurshid Turayev boshchiligidagi TXT Group yirik va zamonaviy qurilish kompaniyasi boʻlib, Oʻzbekistonning 10 dan ortiq tuman va shaharlarida turar-joy majmualari barpo etgan. Kompaniya 2014-yilda tashkil etilgan va shu vaqt ichida ishonchli hamda samarali hamkor sifatida tanilgan.              </p>
               <p className="company_text">
                 Har bir loyiha biz uchun nafaqat biznes, balki oʻz mijozlarimizga eng yaxshi yashash sharoitlarini taqdim etish imkoniyatidir. Bizning asosiy missiyamiz mustahkam va qulay uy-joylar qurish orqali xalqimizning farovonligini taʼminlashdir.
               </p>
@@ -62,7 +61,7 @@ const Company = () => {
                 Kompaniyamiz sifat, mustahkamlik va zamonaviy yondashuvlar asosida eng yuqori darajadagi qurilish xizmatlarini taqdim etishni oʻz oldiga maqsad qilgan. Har bir loyiha biz uchun oʻziga xosdir, shuning uchun biz nafaqat texnik koʻrsatkichlarga, balki mijozlarimizning istak va ehtiyojlariga ham katta eʼtibor qaratamiz.
               </p>
               <p className="company_text">
-              Biz bilan hamkorlik qilib, siz barqaror va mustahkam qurilish yechimlarini tanlaysiz. Biz sizning ishonchingizni oqlash va orzularingizdagi loyihani hayotga tatbiq etish uchun doim harakatdamiz!
+                Biz bilan hamkorlik qilib, siz barqaror va mustahkam qurilish yechimlarini tanlaysiz. Biz sizning ishonchingizni oqlash va orzularingizdagi loyihani hayotga tatbiq etish uchun doim harakatdamiz!
               </p>
             </div>
 

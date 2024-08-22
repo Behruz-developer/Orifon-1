@@ -111,6 +111,7 @@
         width: 30%;
         object-fit: cover;
         flex-shrink: 0;
+        filter: grayscale(100%);
         @include media(1000px) {
             width:25%;
         }

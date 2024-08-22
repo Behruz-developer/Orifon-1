@@ -1,5 +1,6 @@
 .location {
     overflow: hidden;
+    margin-bottom: 90px;
 
     @include media (1000px){
         padding-bottom: 40px;
@@ -7,7 +8,13 @@
     @include media (850px){
         padding-bottom: 0px;
     }
+    @include media (800px) {
+        margin-bottom: 40px;
+    }
 
+    @include media (600px) {
+        margin-bottom: 16px;
+    }
     &_box {
         width: 100%;
         display: grid;

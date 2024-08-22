@@ -1,4 +1,13 @@
 .form {
+    margin-bottom: 90px;
+
+    @include media (800px) {
+        margin-bottom: 40px;
+    }
+
+    @include media (600px) {
+        margin-bottom: 16px;
+    }
 
     &_box {
         display: flex;
