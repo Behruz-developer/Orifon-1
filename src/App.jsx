@@ -16,8 +16,8 @@ import { useEffect, useState } from "react";
 import Loading from "./Components/Loading/Loading";
 import { Helmet } from "react-helmet";
 import average from './assets/images/averag.jpg'
-import average2 from './assets/images/average1.jpg'
-import average3 from './assets/images/average2.jpg'
+import average2 from './assets/images/average1.png'
+import average3 from './assets/images/average2.png'
 import average4 from './assets/images/average3.jpg'
 const App = () => {
   const [isLoading, setIsLoading] = useState(true);
