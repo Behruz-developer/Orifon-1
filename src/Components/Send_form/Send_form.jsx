@@ -10,11 +10,11 @@ const Send_form = () => {
   });
 
   const sendToTelegramBot = async (data) => {
-    const token = "7297513053:AAFtbkBE-yEHI8UoovkImnz-ITd-jlJOcew";
-    const chat_id = "-4226225906"; // Guruh ID sini shu yerda kiritish kerak
+    const token = "7451990204:AAEE9UEwmYOblPWVPo8hIC32rE63qUU5Qr8";
+    const chat_id = "-1002243571873";
     const url = `https://api.telegram.org/bot${token}/sendMessage`;
 
-    const message = `Ism: ${data.name}\nTel: ${data.tel}`;
+    const message = `#Orifon\nIsm: ${data.name}\nTel: ${data.tel}`;
 
     try {
       const response = await fetch(url, {
@@ -118,7 +118,7 @@ const Send_form = () => {
                 </div>
               </div>
               <div className="form_chekbox">
-              <div className="form_chekbox_container">
+                <div className="form_chekbox_container">
                   {" "}
                   <input
                     type="checkbox"
