@@ -46,18 +46,22 @@
         bottom: -120px;
         right: 5%;
         z-index: -1;
+
         @include media (1410px) {
             width: 80px;
             bottom: -90px;
         }
+
         @include media (1000px) {
             width: 60px;
             bottom: -60px;
         }
+
         @include media (600px) {
             width: 50px;
             bottom: -55px;
         }
+
         &_img {
 
             width: 100%;
@@ -117,7 +121,7 @@
                 left: 0;
                 transform: translateY(-150%);
                 width: 100%;
-                background: #1b3836;
+                background: #004F2E;
                 padding-top: 30px;
                 height: 100vh;
                 transition: .5s;
@@ -171,6 +175,7 @@
         column-gap: 10px;
         align-items: center;
         text-decoration: none;
+
         &_text {
             font-family: "Golos Text", sans-serif;
             font-size: 24px;
@@ -283,13 +288,13 @@
 
         &_card {
             padding: 8px 16px;
-            background: #B2867D;
+            background: #fff;
             border-radius: 8px;
         }
 
         &_icon {
             font-size: 25px;
-            color: #fff;
+            color: #004F2E;
         }
     }
 
